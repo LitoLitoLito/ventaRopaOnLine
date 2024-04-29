@@ -1,13 +1,13 @@
 .fondo {
     margin-top: 0;
     margin-bottom: 0;
-    background-color: rgb(17, 109, 103);
+    background-color: rgb(0, 0, 0);
 }
 
 .categoria {
-    font-family: Croissant One;
+    font-family: "Cinzel", serif;
     color: rgb(255, 255, 255);
-    background-color: rgb(17, 109, 103);
+    background-color: rgb(0, 0, 0);
     text-align: center;
     padding: 10px;
     margin-top: 10px;
@@ -17,7 +17,7 @@
 .container {
     max-width: 1200px;
     margin: 0 auto 10px;
-    background-color: rgb(190, 236, 229);
+    background-color: rgb(232, 229, 229);
     padding: 20px;
     display: flex;
     flex-wrap: wrap;
@@ -64,12 +64,14 @@
 }
 
 .producto h2 {
+    font-family: "Cinzel", serif;
     font-size: 20px;
     margin-top: 10px;
     color: rgb(164, 26, 26);
 }
 
 .producto p {
+    font-family: 'Fauna One', sans-serif;
     font-size: 16px;
     color: rgb(102, 102, 102);
 }
@@ -93,7 +95,7 @@
 
 button {    
     width: 200px;
-    background-color: rgb(232, 170, 237);
+    background-color: rgb(255, 0, 119);
     color: rgb(3, 1, 1);    
     padding: 3px;
     cursor: pointer;
@@ -101,13 +103,15 @@ button {
 }
 
 .container button {  
-    border-color: rgb(232, 170, 237);
-    border-radius: 10px;
+    font-family: 'Montserrat';
+    color: rgb(255, 255, 255);
+    border: 2px solid transparent;
+    border-radius: 2px;
 }
 
 button:hover {
     color: rgb(0, 0, 0);
-    background-color: rgb(29, 213, 146);
+    background-color: rgb(164, 246, 158);
 }
 
 .menu {
@@ -117,17 +121,18 @@ button:hover {
 }
 
 .menu a {
+    font-family: 'Montserrat';
     display: inline-block;
     margin: 0 20px 20px 5px;
-    background-color: rgb(17, 109, 103);
+    background-color: rgb(0, 0, 0);
     color: rgb(255, 255, 255);
     text-decoration: none;
     transition: background-color 0.3s ease;
 }
 
 .menu a:hover {
-    color: rgb(228, 214, 17);
-    background-color: rgb(17, 109, 103);
+    color: rgb(255, 0, 119);
+    background-color: rgb(0, 0, 0);
 }
 
 @media only screen and (max-width: 768px) {
