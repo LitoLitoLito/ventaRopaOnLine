@@ -7,15 +7,18 @@
     <meta name="description" content="Proyecto Final" />
     <meta name="keywords" content="Proyecto Final, HTML , CSS" />
 
-    <title>Proyecto-Form</title>
+    <title>Registrarse</title>
+
+   
     <!--favicom-->
     <link
       rel="icon"
       type="image/x-icon"
-      href="../img-modelo-p/favicon/favicon.ico"
+      href="./img-modelo-p/logo-3-Photoroom.png-Photoroom.png"
     />
 
     <!--css-->
+    <link rel="stylesheet" href="./estilosCss/stilos.css" />
     <link rel="stylesheet" href="./estilosCss/proyecto-form.css" />
     <!--bootstrap -->
     <link
@@ -25,11 +28,7 @@
       crossorigin="anonymous"
     />
     <!--script boo-->
-    <script
-      src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js"
-      integrity="sha384-C6RzsynM9kWDrMNeT87bh95OGNyZPhcTNXj1NW7RuBCsyN/o0jlpcV8Qyq46cDfL"
-      crossorigin="anonymous"
-    ></script>
+    
 
     <!--bootstrap icon-->
 
@@ -37,15 +36,15 @@
       rel="stylesheet"
       href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.10.5/font/bootstrap-icons.css"
     />
-    <!--google fon eslogan-->
-    <!--titulo principal
+    
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Niconne&display=swap" rel="stylesheet">
 
-    <link rel="preconnect" href="https://fonts.googleapis.com" />
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
-    <link
-      href="https://fonts.googleapis.com/css2?family=Croissant+One&display=swap"
-      rel="stylesheet"
-    />-->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Croissant+One&family=Fjalla+One&display=swap" rel="stylesheet">
+  
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link rel="preconnect" href="https://fonts.googleapis.com">
@@ -61,67 +60,76 @@
     <link href="https://fonts.googleapis.com/css2?family=Cinzel+Decorative:wght@400;700;900&family=Cinzel:wght@400..900&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Titillium+Web:wght@300;400;600&display=swap" rel="stylesheet">
   </head>
 
-  <body>
-    <!---->
-
-    <header>
-      <!--menu de navegacion-->
-      <nav class="navbar navbar-expand-md navbar-light">
-        <div class="container-fluid">
-          <button
-            class="navbar-toggler"
-            type="button"
-            data-bs-toggle="collapse"
-            data-bs-target="#navbar-Toggler"
-            aria-controls="navbarTogglerDemo01"
-            aria-expanded="false"
-            aria-label="Toggle navigation"
-          >
-            <span class="navbar-toggler-icon"></span>
-          </button>
-
-          <div class="div-a-ul collapse navbar-collapse" id="navbar-Toggler">
-            <a class="navbar-brand" href="#">
-              <img
-                src="../img-modelo-p/logo-boutique.png"
-                width="120"
+  <body>      <!--menu de navegacion-->
+      <header class="header1">
+        <!--menu de navegacion-->
+        <nav class="navbar navbar-expand-md navbar-light example .navbar-brand">
+          <div class="container-fluid">
+            <!--logo y eslogan-->
+            <div class="logo-eslogan">
+              <a  href="index.html" target="_blank" rel="noopener noreferrer">
+              <img class="logo"
+                src="./img-modelo-p/logo-3-Photoroom.png"
+                
                 alt="logo de la pagina"
-              />
-            </a>
-            <p class="eslogan">Vestimos tus emosiones</p>
+              /></a>
+              <p class="eslogan"> 
+                <a href="index.html" type="none">María Bonita</a>
+              </p>
+            </div>
+            
+            
+            
+            <!--lista de menu-->
+            <div class=" collapse navbar-collapse" id="navbar-Toggler">
+              <!--https://www.youtube.com/watch?v=nOubjLM9Cbc-->
+              
+              <ul 
+                class="navbar-nav d-flex justify-content-center aling-items-center" >
+                <li class="nav-item">
+                  <a class="nav-link" aria-current="page" href="#sobre-we"
+                  rel="noopener noreferrer">Nosotros</a>
+                </li>
+  
+                <li class="nav-item">
+                  <a class="nav-link" href="catalogo.htm" rel="noopener noreferrer">Catálogo</a>
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link" href="#new" rel="noopener noreferrer">Coleción</a>
+                </li>
+  
+                <li class="nav-item">
+                  <a class="nav-link" href="#comentarios" rel="noopener noreferrer">Comentarios</a>
+                </li>
+                <li class="nav-item li-registro">
+                  <a class="nav-link" href="proyecto-form.htm">Registrarse</a>
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link" href="#"
+                  rel="noopener noreferrer"><i class="bi bi-cart4"></i></a>
+                </li>
+                
+              </ul>
+              
+            </div>
+            <!--lista de menu fin-->
+            
+              
+            
+            <button
+              
+              type="button"
+              data-bs-toggle="collapse"
+              data-bs-target="#navbar-Toggler"
+              aria-controls="navbarTogglerDemo01"
+              aria-expanded="false"
+              aria-label="Toggle navigation">
+              <span class="navbar-toggler-icon button-nav"></span>
+            </button>
+            
           </div>
-          <ul
-            class="navbar-nav d-flex justify-content-center aling-items-center"
-          >
-            <li class="nav-item">
-              <a class="nav-link active" aria-current="page" href="index.html"
-                >Sobre Nosotros</a
-              >
-            </li>
-
-            <li class="nav-item">
-              <a class="nav-link" href="catalogo.htm">Catalogo</a>
-            </li>
-            <li class="nav-item">
-              <a class="nav-link" href="#verano">Verano</a>
-            </li>
-
-            <li class="nav-item">
-              <a class="nav-link" href="#invierno">Invierno</a>
-            </li>
-            <li class="nav-item">
-              <a class="nav-link" href="#iniciar"
-                ><i class="bi bi-person-fill"></i> iniciar session</a
-              >
-            </li>
-            <li class="nav-item">
-              <a class="nav-link" href="#"
-                ><i class="bi bi-cart4"></i></a
-              >
-            </li>
-          </ul>
-        </div>
-      </nav>
+          
+        </nav>
     </header>
 
 
@@ -174,22 +182,24 @@
       
 
     <!--footer-->
-    <footer class="seccion-oscura d-flex flex-column justify-content-center align-items-center">
-      
-      
-      <img class=" footer-logo bi bi-bootstrap-fill" src="../img-modelo-p/logo-boutique.png">
+    <footer class="seccion-footer">
+      <!--logo-->      
+      <div class="cont-1">
+        
 
-      <div class="d-flex flex-row justify-content-center align-items-center">
-        <p class="footer-texto text-center">Te esperamos en nuestra <br> tienda fisica. <br>        
-        </p>
+        <div class="d-flex d-flex-colum justify-content-center align-items-center">
+          <img class=" footer-logo bi bi-bootstrap-fill" src="./img-modelo-p/logo-3-Photoroom.png">
+          <p class="footer-texto text-center">Te esperamos en nuestra <br> tienda fisica. <br>        
+          </p>
+          
         
-        <a class="ubicacion" href="https://www.facebook.com/sanjuantec/" target="_blank" rel="noopener noreferrer" ><i class="bi bi-geo-alt-fill"></i></a>
+          <a class="ubicacion" href="" target="_blank" rel="noopener noreferrer" ><i class="bi bi-geo-alt-fill"></i></a>
         
+        </div>
       </div>
-      
-      
-      
-      <div class="iconos-redes-sociales d-flex flex-wrap align-items-center justify-content-center">
+      <!--redes icono-->
+      <div class="cont-1">
+        <div class="iconos-redes-sociales d-flex flex-wrap align-items-center justify-content-center">
 
         <a href="" target="_blank" rel="noopener noreferrer" ><i class="bi bi-github"></i></a>
         <a href="" target="_blank" rel="noopener noreferrer" ><i class="bi bi-linkedin"></i></a>
@@ -198,9 +208,40 @@
         <a href="mailto:gss-v-18505276@hotmail.com"><i class="bi bi-envelope-at-fill"></i></a>
         
     
+        </div>
       </div>
+      <!--politicas y privacidad-->
+      <div class="cont-2 cont-1">
+        
+        <!--logo-->
+        <div class="derechos-autor">
+            <a href="https://inscripcionesagencia.bue.edu.ar/codoacodo/" target="_blank">
+              <img src="https://inscripcionesagencia.bue.edu.ar/codoacodo/img/graficos/logoCACsinbloque.png" alt="">
+            </a>
+        </div>
 
-      <div class="derechos-autor">Creado por Gilberto Serrato &#169</div>
+        <div class="derechos-autor">
+          Comisión 24254
+        </div>
+
+        <div class="derechos-autor">
+          Javascript/NodeJs
+        </div>
+
+        <div class="derechos-autor">
+          Grupo 19 &#169
+        </div>
+
+        <div class="derechos-autor">
+          Términos y Condiciones
+        </div>
+
+        <div class="derechos-autor">
+          Políticas
+        </div>
+
+        
+      </div>
 
     </footer>
 
