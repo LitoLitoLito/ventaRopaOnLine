@@ -120,7 +120,15 @@ textarea:hover{
     background: rgba(0, 0, 0, 0.5);
 }
 
+.msg-icon{
+    width: 60px;
+    padding-left: 20px;
+}
 
+.white-arrow-icon{
+    width: 60px;
+    padding-left: 20px;
+}
 
 .boton-enviar{
     background-color: rgb(255, 0, 119);
