@@ -136,7 +136,7 @@ textarea:hover{
 }
 .boton-enviar:hover{
     background-color: transparent;
-    color: rgb(255, 0, 119);
+
     border: 2px solid rgb(255, 0, 119);
 }
 
@@ -145,6 +145,14 @@ legend{
     color: #d3d3d3;
     text-align: center;
     padding: 0.6rem;
+}
+.msg-icon{
+    width: 60px;
+    padding-left: 20px;
+}
+.white-arrow-icon{
+    width: 30px;
+    padding-left: 10px;
 }
 
 
