@@ -373,15 +373,10 @@ p{
     border-radius: 50%;
     border: solid 2px rgb(255, 242, 0);
     object-fit: cover;
-    margin: 10px;
-    
-    
+    margin: 10px; 
 }
-.texto-comentario{
-    width: 200px;
-    height: 100px;
-    
-}
+
+
 
 /*comentar*/
 

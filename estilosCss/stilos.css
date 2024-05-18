@@ -486,20 +486,55 @@ li{
     width: 100px;
     height: 100px;
     border-radius: 50%;
-    border: solid 2px rgb(215, 0, 119);
+    border: 8px solid #aeaeae;
     object-fit: cover;
     margin: 10px;
-    
+    background-color: #d2d2d2;
     
 }
 .texto-comentario{
-    width: 200px;
-    height: 100px;
-    color: rgb(215, 0, 119);
-   
-    
+    /* background-image: linear-gradient(0 0 0 black, 0 0 0 0.6); */
+    padding: 10px 10px;
+    margin: 5px;
+    border-radius: 6px;
+    background: linear-gradient(135deg, rgb(233, 233, 233) 23%, rgb(254, 254, 254) 100%); 
 }
 
+.container-3{
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
+    border-radius: 6px;
+    height: auto;
+}
+
+.container-4{
+    border: 2px solid transparent;
+    padding: 20px;
+}
+.comentario{
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
+    border: none;
+    border-radius: 8px;
+    text-align: center;
+    padding: 5px;
+}
+.texto-comentario p{
+    font-family: 'Fauna One', sans-serif;
+    font-size: 16px;
+    color: rgb(16, 16, 16);
+}
+
+.texto-comentario h4{
+    font-family: 'Fauna One', sans-serif;
+    font-weight: 700;
+    font-size: 26px;
+    color: rgb(21, 21, 21)
+}
+.seccion-clara h2{
+    font-family: 'Fauna One', sans-serif;
+    font-weight: 200;
+    background: none;
+    color: #aeaeae;
+}
 
 
 /* footer*/
@@ -527,9 +562,16 @@ footer{
 .footer-texto{
     font-size: 1.5rem;
     padding: 10px;
-    font-family: 'Bebas Neue', sans-serif;
+    font-family: 'Fauna One', sans-serif;
+    color: #d2d2d2;   
     
-    
+}
+#stars{
+    width: 100px;
+    height: auto;
+    border: none;
+    border-radius: 1px;
+    background: none;
 }
 footer .ubicacion{
     width: 70px;
@@ -544,14 +586,14 @@ footer .ubicacion{
     transition: all 0.2s ease-in;
 }
 footer .ubicacion i{
-    color: rgb(249, 7, 7);
+    color: rgb(255, 0, 119);
     font-size: 2rem;
     transition: all 0.2s ease-in;
     
  }
 footer .ubicacion:hover{
-    background-color:white;
-    border: solid rgb(210, 0, 119)2px;
+    
+    border: solid rgb(255, 0, 119)2px;
      transition: all 0.2s ease-in;
      
  }
@@ -592,8 +634,8 @@ footer .ubicacion:hover{
 
 /*redes sociales*/
 .iconos-redes-sociales a{
-    width: 50px;
-    height: 50px;
+    width: 70px;
+    height: 70px;
     display: flex;
     flex-wrap: wrap;
     justify-content: center;
@@ -608,30 +650,37 @@ footer .ubicacion:hover{
 .iconos-redes-sociales i{
     color: white;
     font-size: 1.5rem;
-     transition: all 0.2s ease-in;
+     transition: all 0.4s ease-in;
  }
  .iconos-redes-sociales a:hover{
-    background-color:white;
-    border: solid rgb(210, 0, 119) 2px;
+     border: solid rgb(255, 0, 119) 2px;
      transition: all 0.2s ease-in;
  }
   a:hover i{
-    color:rgb(210, 0, 119);
+    color:rgb(255, 0, 119);
     
      transition: all 0.2s ease-in;
  } 
 
 .derechos-autor{
     font-size: 1.5 rem;
-    color: #f3cc0c;
+    color:#aeaeae;
     padding-top: 5px;
     padding-bottom: 5px;
     width: 100%;
     height: 40px;
-    
     text-align: center;
+}
 
-
+.derechos-autor-1{
+    font-size: 1.4rem;
+    line-height: 1.4;
+    color:#aeaeae;
+    padding-top: 5px;
+    padding-bottom: 5px;
+    width: 100%;
+    height: 50px;
+    text-align: center;
 }
 .derechos-autor img{
     height: 35px;
