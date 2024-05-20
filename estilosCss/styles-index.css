@@ -12,12 +12,13 @@ body{
     
 }
 
-header{
+.header-index{
     min-width: 400px;
     height: 680px;
     margin-bottom: 10px;
     
 }
+
 h2{
     font-family: 'Croissant One', cursive;
 }
@@ -42,17 +43,17 @@ p{
 .seccion-oscura{
     color: rgb(251, 249, 249);
     background-color: #090909d2;
-    
-    
-    
+       
 }
 .seccion-clara{
     color: rgb(10, 10, 10);
     background-color: #ffffffd1;
+
 }
 .seccion-footer{
     color: rgb(251, 249, 249);
     background-color: #090909;
+
 }
 
 
@@ -64,7 +65,6 @@ p{
     
     background-color: #080808;
     height: auto;
-    
     width: 100%;
     height: auto;
     
@@ -76,8 +76,6 @@ p{
     justify-content:end;
     align-items: center;
     width: 70%;
-    
-      
 }
 .boootom{
     background-color: rgb(17, 17, 17);
@@ -254,8 +252,6 @@ nav li:hover > ul{
 /*seccion nosotros*/
 
 .sec-1{
-    
-    
     display: flex;
     flex-direction: column;
     justify-content:center;
@@ -287,8 +283,10 @@ nav li:hover > ul{
     border-top:solid 3px rgb(210, 0, 119);
     border-bottom:solid 3px rgb(210, 0, 119);
     background-color: #07070793;
-    width: 900px; 
+    max-width: 900px;
+    min-width: 250px; 
 }
+
 
 
 
@@ -300,8 +298,9 @@ nav li:hover > ul{
 
 .sec-2{
     
-    height:700px;
-    width: 800px;
+    
+    width: 80%;
+    
     display: flex;
     flex-direction:column;
     justify-content:center;
@@ -309,6 +308,7 @@ nav li:hover > ul{
     align-items: center;
     padding: 20px;
     border: solid red 1px;
+    
      
     
 }
@@ -316,24 +316,28 @@ nav li:hover > ul{
 
 .sec-2 .texto{
     width: 100%;
+    min-width: 250px;
     text-align: center;
     justify-content: center;
     align-items: center;
     padding: 30px;
-    border: solid red 1px;
+    border: solid rgb(173, 163, 24) 1px;
 }
 
 .sec-2 .parrafo{
     width: 80%;
+    min-width: 250px;
     text-align: center;
     justify-content:center;
     align-items: center;
     text-align: center;
     margin: 10px;
+   
 }
 
 .sec-2 p{
     font-size: large;
+    min-width: 250px;
 
 }
 
@@ -428,7 +432,7 @@ nav li:hover > ul{
     
 }
 /*parrafo Materiales excepcionales para un estilo excepcional: */
-.sec-3 .texto{
+.sec-3 .texto, .texto-home{
     display:flex;
     flex-direction: column;
     justify-content: center;
@@ -444,6 +448,11 @@ nav li:hover > ul{
     padding-left: 10px;
     padding-right: 10px;
     
+}
+/*texto home */
+.texto-home p{
+    color: rgb(248, 244, 244);
+      
 }
 /*parrafo fin*/
 
@@ -575,36 +584,6 @@ nav li:hover > ul{
     border: 8px solid #aeaeae;
     object-fit: cover;
     margin: 10px;
-<<<<<<< HEAD
-    
-}
-
-.comentario h4{
-    width: 100px;
-    color: rgb(215, 0, 119);
-    text-align: center;
-    
-    font-size: 1.4rem;
-}
- .p-comentario{
-    width: 100%;
-    height: auto;
-    color: rgb(14, 13, 13);
-    justify-content: center;
-    align-items: center;
-    font-size: 1rem;
-    padding-top: 10px;
-    
-    text-align: center;
-    text-justify: center;
-    text-align: center;
-    margin: 5px;
-    
-   
-    
-   
-    
-=======
     background-color: #d2d2d2;
     
 }
@@ -614,7 +593,6 @@ nav li:hover > ul{
     margin: 5px;
     border-radius: 6px;
     background: linear-gradient(135deg, rgb(233, 233, 233) 23%, rgb(254, 254, 254) 100%); 
->>>>>>> main
 }
 
 .container-3{
