@@ -7,7 +7,7 @@
     <meta name="description" content="Proyecto Final" />
     <meta name="keywords" content="Proyecto Final, HTML , CSS" />
 
-    <title>Registrarse</title>
+    <title>Registrarse | Proyecto Final</title>
 
    
     <!--favicom-->
@@ -18,7 +18,7 @@
     />
 
     <!--css-->
-    <link rel="stylesheet" href="./estilosCss/stilos.css" />
+    <link rel="stylesheet" href="./estilosCss/styles-index.css" />
     <link rel="stylesheet" href="./estilosCss/proyecto-form.css" />
     <!--bootstrap -->
     <link
@@ -77,34 +77,61 @@
                 <a href="index.html" type="none">María Bonita</a>
               </p>
             </div>
-            
-            
-            
+            <!--logo y eslogan fin-->
+
             <!--lista de menu-->
             <div class=" collapse navbar-collapse" id="navbar-Toggler">
               <!--https://www.youtube.com/watch?v=nOubjLM9Cbc-->
               
               <ul 
                 class="navbar-nav d-flex justify-content-center aling-items-center" >
+
+                <li class="nav-item">
+                  <a class="nav-link" aria-current="page" href="in"
+                  rel="noopener noreferrer">Home</a>
+                </li>
+
                 <li class="nav-item">
                   <a class="nav-link" aria-current="page" href="#sobre-we"
                   rel="noopener noreferrer">Nosotros</a>
                 </li>
   
-                <li class="nav-item">
+                <!--catalogo menu deplegable-->
+
+                <li class="nav-item menu-sub">
                   <a class="nav-link" href="catalogo.htm" rel="noopener noreferrer">Catálogo</a>
+                  <!--menu desplegable-->
+                  <ul>
+                    <li>
+                      <a class="nav-link" aria-current="page" href="in"
+                      rel="noopener noreferrer">Vestidos</a>
+                    </li>
+                    <li >
+                      <a class="nav-link" aria-current="page" href="in"
+                      rel="noopener noreferrer">Sudaderas</a>
+                    </li>
+                    <li >
+                      <a class="nav-link" aria-current="page" href="in"
+                      rel="noopener noreferrer">Camisas</a>
+                    </li>
+                    <li >
+                      <a class="nav-link" aria-current="page" href="in"
+                      rel="noopener noreferrer">Pantalones</a>
+                    </li>
+                    
+                  </ul>
                 </li>
-                <li class="nav-item">
-                  <a class="nav-link" href="#new" rel="noopener noreferrer">Coleción</a>
-                </li>
-  
-                <li class="nav-item">
-                  <a class="nav-link" href="#comentarios" rel="noopener noreferrer">Comentarios</a>
-                </li>
+                <!--catalogo menu deplegable fin-->
                 <li class="nav-item li-registro">
                   <a class="nav-link" href="proyecto-form.htm">Registrarse</a>
                 </li>
-                <li class="nav-item">
+  
+                
+                <li class="nav-item li-registro">
+                  <a class="nav-link" href="proyecto-form.htm">Registrarse</a>
+                </li>
+
+                <li class="nav-item item-car">
                   <a class="nav-link" href="#"
                   rel="noopener noreferrer"><i class="bi bi-cart4"></i></a>
                 </li>
@@ -115,8 +142,8 @@
             <!--lista de menu fin-->
             
               
-            
-            <button
+            <!--boton ocultar menu desplegable-->
+            <button class="boootom"
               
               type="button"
               data-bs-toggle="collapse"
