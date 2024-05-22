@@ -69,8 +69,8 @@ h2{
 }
 
 label{
-    min-width: 4.5rem;
-    margin: 0.5rem 0.3rem;
+    min-width: 1rem;
+    margin: 0.5rem 0.1rem;
     font-family: 'Montserrat';
     color: #d3d3d3;
 }
@@ -155,21 +155,48 @@ legend{
     padding: 0.6rem;
 }
 
+.form-group2 {
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 10px;
+}
 
+#terms{
+    width: 20px;
+    margin-left: 20px;
+    color: #aeaeae;
+}
+
+.inline-input {
+    display: flex;
+    align-items: center;
+}
+
+.inline-input label {
+    max-width: 50px;
+}
+
+.radio{
+    max-width: 40px;
+    margin-left: 20px;
+}
     
  
 
-/*hero-inferior-imagen responsivo se oculta en md*/
+/* Media */
 @media screen and (max-width: 700px) {    
     .hero-inferior-imagen{
         min-width: 600px;
+    }
+    .radio{
+        margin-left: 12px;
     }
     
 }
 
 
 /*barra de nav logo responsivo se oculta en md*/
-@media screen and (max-width: 1024px) {    
+@media screen and (max-width: 1300px) {    
     .form-1{
         grid-template-columns: 1fr;
     };

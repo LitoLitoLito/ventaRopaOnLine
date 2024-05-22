@@ -592,7 +592,7 @@ nav li:hover > ul{
     padding: 10px 10px;
     margin: 5px;
     border-radius: 6px;
-    background: linear-gradient(135deg, rgb(233, 233, 233) 23%, rgb(254, 254, 254) 100%); 
+    background: linear-gradient( rgb(241, 241, 241) 23%, rgb(254, 254, 254) 100%); 
 }
 
 .container-3{
@@ -616,6 +616,7 @@ nav li:hover > ul{
     font-family: 'Fauna One', sans-serif;
     font-size: 16px;
     color: rgb(16, 16, 16);
+    text-align: center;
 }
 
 .texto-comentario h4{
