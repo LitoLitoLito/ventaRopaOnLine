@@ -3,11 +3,10 @@
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <meta name="autor" content="Gilberto Serrato Salcedo" />
     <meta name="description" content="Proyecto Final" />
     <meta name="keywords" content="Proyecto Final, HTML , CSS" />
 
-    <title> Grupo 19 | Proyecto Final</title>
+    <title> Nosotros | Proyecto Final</title>
 
     <link rel="stylesheet" href="animacion.js">
     <!--favicom-->
@@ -18,7 +17,8 @@
     />
 
     <!--css-->
-    <link rel="stylesheet" href="./estilosCss/stilos.css" />
+    <link rel="stylesheet" href="./estilosCss/styles-index.css" />
+    
     <!--bootstrap -->
     <link
       href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css"
@@ -52,18 +52,25 @@
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Croissant+One&family=Fjalla+One&display=swap" rel="stylesheet">
+
+
+    <!--parrafo comentarios-->
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Tienne:wght@400;700;900&display=swap" rel="stylesheet">
   </head>
 
   <body >
     <!---->
 
-    <header >
+    <header class="header-index">
       <!--menu de navegacion-->
       <nav class="navbar navbar-expand-md navbar-light example .navbar-brand">
         <div class="container-fluid">
           <!--logo y eslogan-->
           <div class="logo-eslogan">
-            <a  href="index.html" target="_blank" rel="noopener noreferrer">
+            <a rel="noopener noreferrer">
             <img class="logo"
               src="./img-modelo-p/logo-3-Photoroom.png"
               
@@ -73,47 +80,52 @@
               <a href="index.html" type="none">María Bonita</a>
             </p>
           </div>
-          
-          
-          
+          <!--logo y eslogan fin-->
+            
           <!--lista de menu-->
           <div class=" collapse navbar-collapse" id="navbar-Toggler">
-            <!--https://www.youtube.com/watch?v=nOubjLM9Cbc-->
-            
-            <ul 
-              class="navbar-nav d-flex justify-content-center aling-items-center" >
-              <li class="nav-item">
-                <a class="nav-link" aria-current="page" href="#sobre-we"
-                rel="noopener noreferrer">Nosotros</a>
-              </li>
+          
+              <!--https://www.youtube.com/watch?v=nOubjLM9Cbc-->
+                
+                  
+              <ul class="navbar-nav d-flex justify-content-center aling-items-center" >
 
-              <li class="nav-item">
-                <a class="nav-link" href="catalogo.htm" rel="noopener noreferrer">Catálogo</a>
-              </li>
-              <li class="nav-item">
-                <a class="nav-link" href="#new" rel="noopener noreferrer">Coleción</a>
-              </li>
+                <li class="nav-item">
+                  <a class="nav-link" aria-current="page" href="index.html"
+                  rel="noopener noreferrer">Home</a>
+                </li>
 
-              <li class="nav-item">
-                <a class="nav-link" href="#comentarios" rel="noopener noreferrer">Comentarios</a>
-              </li>
-              <li class="nav-item li-registro">
-                <a class="nav-link" href="proyecto-form.htm">Registrarse</a>
-              </li>
-              <li class="nav-item">
-                <a class="nav-link" href="#"
-                rel="noopener noreferrer"><i class="bi bi-cart4"></i></a>
-              </li>
-              
-            </ul>
-            
+                
+
+                <!--catalogo menu deplegable-->
+
+                <li class="nav-item menu-sub">
+                  <a class="nav-link" href="catalogo.htm" rel="noopener noreferrer">Catálogo</a>
+                </li>
+
+                <!--sub-menu deplegable-->
+                <li class="nav-item">
+                  <a class="nav-link" href="nueva_coleccion.htm" rel="noopener noreferrer">Colección</a>
+                </li>                 
+                
+
+                <li class="nav-item li-registro">
+                  <a class="nav-link" href="proyecto-form.htm">Registrarse</a>
+                </li>
+
+                <li class="nav-item item-car">
+                  <a class="nav-link" href="#"
+                  rel="noopener noreferrer"><i class="bi bi-cart4"></i></a>
+                </li>
+                    
+              </ul>
+                  
           </div>
           <!--lista de menu fin-->
           
-            
-          
-          <button
-            
+          <!--boton ocultar menu desplegable-->
+          <button class="boootom"
+                  
             type="button"
             data-bs-toggle="collapse"
             data-bs-target="#navbar-Toggler"
@@ -126,8 +138,9 @@
         </div>
         
       </nav>
+
       <!--slider portada-->
-      <div    >
+      <div >
         <div id="carouselExampleAutoplaying" class="carousel slide sec-oscura navbar-nav " data-bs-ride="carousel" >
           <div class="carousel-inner">
             <!--slide 1-->
@@ -308,58 +321,62 @@
     <section class="contenedor">
       <!--sobre nosotros-->
       <section class="seccion-oscura " id="sobre-we">
+        <!--parrafo 1      -->
 
         <div class="sec-1">
-          
-          <div class="div-img">
-            <img src="./img-modelo-p/telas-1.jpg" alt="imagen de telas">
-          </div> 
-          
-          <div class="description">
-            <h2 >Sobre Nosotros</h2>
+
+          <div class="description ">
+            <h2 >María Bonita: 15 años vistiendo sueños con pasión y calidad</h2>
             <p class="texto">
-              Lorem, ipsum dolor sit amet consectetur adipisicing elit. Voluptatum corrupti blanditiis iure quod placeat ut, vero fugit assumenda reiciendis illum culpa dolore magnam neque. Non quasi consequatur ea dolores rerum.
-              Lorem ipsum dolor sit amet consectetur adipisicing elit. Totam esse praesentium ex. Perferendis, tempora? Iure assumenda ducimus sunt ipsum harum ex porro tempore modi ullam, libero similique magnam obcaecati adipisci.
+              María Bonita: Un nombre que resuena en el mundo de la moda como sinónimo de elegancia, calidad y compromiso con la mujer actual. Durante 15 años, esta empresa Argentina ha conquistado corazones a través de diseños únicos que exaltan la belleza femenina y la acompañan en cada paso de su camino.
             </p>
             
+            
+            
+            <h2 >Más que ropa, una experiencia:</h2>
+            <p class="texto">
+              
+
+              En María Bonita, la creación de cada prenda va más allá de la simple confección. Es un proceso impregnado de pasión, dedicación y un profundo conocimiento de las necesidades y deseos de la mujer moderna.
+            </p> 
+            
           </div>
+
+
+                 
+          
+          
+          
                     
-        </div>
+        </v>
+        
+
+        
+        
+
+        
+        
           
           
       </section>
 
-      <!--nuestra experiencia-->
-      <section id="" class="seccion-clara d-flex-colum ">
-        <div class="sec-2">
-          <h3 class="texto">Nuestra experiencia</h3>
-          <div>
-
-          </div>
-          <div>
-
-          </div>
-          <div>
-
-          </div>
-
-        </div>
-
-      </section>
+      
 
       
       <!--materiales de calidad-->
       
       
-      <section id="new" class="seccion-oscura">
+      <section id="new" class="seccion-clara">
 
         
 
         <article class="sec-3">
   
           <div class="texto">
-            <h2> Materiales de calidad</h2>
-            <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Nihil hic, similique sint ab debitis, sequi officia laudantium ea odio temporibus doloribus nam harum pariatur cumque perspiciatis, omnis repellendus quisquam cupiditate. </p>
+            <h2> Materiales excepcionales para un estilo excepcional:</h2>
+            <p>
+              Fieles a su compromiso con la calidad, en María Bonita seleccionan minuciosamente cada material utilizado en sus diseños. Telas nobles, texturas exquisitas y acabados impecables se fusionan para crear piezas que no solo son hermosas a la vista, sino también cómodas y duraderas.
+            </p>
           </div>
   
           <!--imagen 1-->
@@ -401,6 +418,39 @@
   
         
         
+      </section>
+
+      <!--nuestra experiencia-->
+      <section id="" class="seccion-oscura d-flex-colum ">
+        <div class="sec-2">
+          <h3 class="texto">3 razones para elegir María Bonita:</h3>
+
+          <div class="parrafo ">
+            <p>
+              <em><i class="bi bi-check2-circle"></i> Diseños únicos y vanguardistas:</em>   Cada temporada, María Bonita sorprende con colecciones que reflejan las últimas tendencias de la moda internacional, pero siempre con un toque único y distintivo.
+            </p>
+          </div>
+
+         
+
+          <div class="parrafo">
+            <p>
+              <em> <i class="bi bi-check2-circle"></i> Confección impecable:</em>  La atención al detalle y la mano de obra experta se traducen en prendas con acabados impecables que resaltan tu elegancia y sofisticación.
+            </p>
+          </div>
+
+          <div class="parrafo">
+            <p>
+              <em><i class="bi bi-check2-circle"></i> Asesoría personalizada:</em>  Un equipo de profesionales capacitados te brindará asesoría personalizada para ayudarte a encontrar las prendas que mejor se adapten a tu estilo y necesidades.
+            </p>           
+            
+          </div>
+          
+          <h3 class="texto">15 años vistiendo sueños, te invitamos a ser parte de nuestra historia.</h3>
+        
+
+        </div>
+
       </section>
 
       
@@ -458,7 +508,7 @@
               </div>
             </div>
 
-          </div>
+          
           
          
 
