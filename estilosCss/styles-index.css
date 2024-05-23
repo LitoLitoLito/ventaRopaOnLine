@@ -657,7 +657,28 @@ footer{
     color: #d2d2d2;   
     
 }
-#stars{
+#stars1{
+    width: 100px;
+    height: auto;
+    border: none;
+    border-radius: 1px;
+    background: none;
+}
+#stars2{
+    width: 100px;
+    height: auto;
+    border: none;
+    border-radius: 1px;
+    background: none;
+}
+#stars3{
+    width: 100px;
+    height: auto;
+    border: none;
+    border-radius: 1px;
+    background: none;
+}
+#stars4{
     width: 100px;
     height: auto;
     border: none;
