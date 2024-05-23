@@ -8,7 +8,6 @@
 
     <title>Registrarse | Proyecto Final</title>
 
-   
     <!--favicom-->
     <link
       rel="icon"
@@ -26,11 +25,8 @@
       integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN"
       crossorigin="anonymous"
     />
-    <!--script boo-->
-    
 
     <!--bootstrap icon-->
-
     <link
       rel="stylesheet"
       href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.10.5/font/bootstrap-icons.css"
@@ -59,7 +55,7 @@
     <link href="https://fonts.googleapis.com/css2?family=Cinzel+Decorative:wght@400;700;900&family=Cinzel:wght@400..900&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Titillium+Web:wght@300;400;600&display=swap" rel="stylesheet">
   </head>
 
-  <body>      <!--menu de navegacion-->
+  <body>
       <header class="header1">
         <!--menu de navegacion-->
         <nav class="navbar navbar-expand-md navbar-light example .navbar-brand">
@@ -67,11 +63,11 @@
             <!--logo y eslogan-->
             <div class="logo-eslogan">
               <a rel="noopener noreferrer">
-              <img class="logo"
-                src="./img-modelo-p/logo-3-Photoroom.png"
-                
-                alt="logo de la pagina"
-              /></a>
+                <img class="logo"
+                  src="./img-modelo-p/logo-3-Photoroom.png"
+                  alt="logo de la pagina"
+                />
+              </a>
               <p class="eslogan"> 
                 <a href="index.html" type="none">María Bonita</a>
               </p>
@@ -79,19 +75,14 @@
             <!--logo y eslogan fin-->
 
             <!--lista de menu-->
-            <div class=" collapse navbar-collapse" id="navbar-Toggler">
-              <!--https://www.youtube.com/watch?v=nOubjLM9Cbc-->
-              
+            <div class=" collapse navbar-collapse" id="navbar-Toggler">              
               <ul 
                 class="navbar-nav d-flex justify-content-center aling-items-center" >
-
                 <li class="nav-item">
                   <a class="nav-link" aria-current="page" href="index.html"
                   rel="noopener noreferrer">Home</a>
                 </li>
-
                 <!--catalogo menu deplegable-->
-
                 <li class="nav-item menu-sub">
                   <a class="nav-link" href="catalogo.htm" rel="noopener noreferrer">Catálogo</a>
                   <!--menu desplegable-->
@@ -100,26 +91,20 @@
                 <li class="nav-item">
                   <a class="nav-link" href="nueva_coleccion.htm" rel="noopener noreferrer">Colección</a>
                 </li> 
-  
-                
                 <li class="nav-item li-registro">
                   <a class="nav-link" href="proyecto-form.htm">Registrarse</a>
                 </li>
-
                 <li class="nav-item item-car">
                   <a class="nav-link" href="#"
                   rel="noopener noreferrer"><i class="bi bi-cart4"></i></a>
                 </li>
-                
-              </ul>
-              
+              </ul> 
             </div>
             <!--lista de menu fin-->
             
               
             <!--boton ocultar menu desplegable-->
-            <button class="boootom"
-              
+            <button class="boootom"  
               type="button"
               data-bs-toggle="collapse"
               data-bs-target="#navbar-Toggler"
@@ -127,10 +112,8 @@
               aria-expanded="false"
               aria-label="Toggle navigation">
               <span class="navbar-toggler-icon button-nav"></span>
-            </button>
-            
+            </button>  
           </div>
-          
         </nav>
     </header>
 
@@ -154,8 +137,32 @@
               <input type="number" id="dni" required>
             </div>
             <div>
-              <label for="ciudad">Ciudad</label>
-              <input type="text" id="ciudad" required>
+              <select class="form-select" id="calId" name="calId" required>
+                <option disabled selected>Provincia</option>
+                <option value="Buenos Aires" name="Buenos Aires">Buenos Aires</option>
+                <option value="Catamarca" name="Catamarca">Catamarca</option>
+                <option value="Chaco" name="Chaco">Chaco</option>
+                <option value="Chubut" name="Chubut">Chubut</option>
+                <option value="Córdoba" name="Córdoba">Córdoba</option>
+                <option value="Corrientes" name="Corrientes">Corrientes</option>
+                <option value="Entre Ríos" name="Entre Ríos">Entre Ríos</option>
+                <option value="Formosa" name="Formosa">Formosa</option>
+                <option value="Jujuy" name="Jujuy">Jujuy</option>
+                <option value="La Pampa" name="La Pampa">La Pampa</option>
+                <option value="La Rioja" name="La Rioja">La Rioja</option>
+                <option value="Mendoza" name="Mendoza">Mendoza</option>
+                <option value="Misiones" name="Misiones">Misiones</option>
+                <option value="Neuquén" name="Neuquén">Neuquén</option>
+                <option value="Río Negro" name="Río Negro">Río Negro</option>
+                <option value="Salta" name="Salta">Salta</option>
+                <option value="San Juan" name="San Juan">San Juan</option>
+                <option value="San Luis" name="San Luis">San Luis</option>
+                <option value="Santa Cruz" name="Santa Cruz">Santa Cruz</option>
+                <option value="Santa Fe" name="Santa Fe">Santa Fe</option>
+                <option value="Santiago del Estero" name="Santiago del Estero">Santiago del Estero</option>
+                <option value="Tierra del Fuego" name="Tierra del Fuego">Tierra del Fuego</option>
+                <option value="Tucumán" name="Tucumán">Tucumán</option>
+                </select>
             </div>
             <div>
               <label for="email">E-mail</label>
@@ -205,29 +212,21 @@
     <footer class="seccion-footer">
       <!--logo-->      
       <div class="cont-1">
-        
-
         <div class="d-flex d-flex-colum justify-content-center align-items-center">
           <img class=" footer-logo bi bi-bootstrap-fill" src="./img-modelo-p/logo-3-Photoroom.png">
           <p class="footer-texto text-center">Te esperamos en nuestra <br> tienda fisica. <br>        
           </p>
-          
-        
           <a class="ubicacion" href="" target="_blank" rel="noopener noreferrer" ><i class="bi bi-geo-alt-fill"></i></a>
-        
         </div>
       </div>
       <!--redes icono-->
       <div class="cont-1">
         <div class="iconos-redes-sociales d-flex flex-wrap align-items-center justify-content-center">
-
         <a href="" target="_blank" rel="noopener noreferrer" ><i class="bi bi-github"></i></a>
         <a href="" target="_blank" rel="noopener noreferrer" ><i class="bi bi-linkedin"></i></a>
         <a href="" target="_blank" rel="noopener noreferrer" ><i class="bi bi-whatsapp"></i></a>
         <a href="" target="_blank" rel="noopener noreferrer" ><i class="bi bi-messenger"></i></a>
         <a href="mailto:gss-v-18505276@hotmail.com"><i class="bi bi-envelope-at-fill"></i></a>
-        
-    
         </div>
       </div>
       <!--politicas y privacidad-->
@@ -243,20 +242,15 @@
         <div class="derechos-autor">
           Comisión 24254
         </div>
-
         <div class="derechos-autor">
           <b>Javascript / NodeJs</b>
         </div>
-
         <div class="derechos-autor-1">
           Grupo Nº 19 
         </div>
-
         <div class="derechos-autor">
           Términos y Condiciones &#169
-        </div>
-
-                
+        </div>                
       </div>
 
     </footer>
