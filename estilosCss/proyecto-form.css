@@ -15,6 +15,22 @@ h2{
     margin-left: 20px;
 }
 
+.navbar-toggler-icon {
+    background-color: #e4e4e4;
+    border-radius: 2px;
+    transition: 0.6s;
+}
+.navbar-toggler-icon:hover {
+    background-color: #aeaeae;
+}
+
+.boootom{
+    background-color: transparent;
+    border: none;
+    padding: 15px 22px;
+    margin-right: 50px;
+}
+
 /* Section */
 .contenedor{
     display: flex;
@@ -44,7 +60,6 @@ h2{
     padding: 1rem 1rem 1.2rem 1rem; 
 }
 
-
 .campo-texto{
     display: flex;
     width: 100%;
@@ -55,7 +70,6 @@ h2{
     padding: 1rem 1rem 1.2rem 1rem;
     color: #aeaeae;
 }
-
 
 .form-1{
     padding: 0;
