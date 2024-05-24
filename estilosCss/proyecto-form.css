@@ -213,12 +213,12 @@ legend{
 @media screen and (max-width: 1300px) {    
     .form-1{
         grid-template-columns: 1fr;
-    };
+    }
 
     .article-form{
         width:75%;
     }
-}
+
 
 @media screen and (max-width: 700px) {   
     /*hero-inferior-imagen responsivo se oculta en md*/
@@ -241,8 +241,6 @@ legend{
     .msg-icon{
         display: none;
     }
+
 }
-   
-   
-
-
+}

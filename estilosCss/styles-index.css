@@ -1,9 +1,10 @@
 /*estilos generales*/
-*{
-    box-sizing: 0;
+* {
+    box-sizing: border-box;
     padding: 0;
     margin: 0;  
 }
+
 
 body{
     background-image: url(../img-modelo-p/descarga.jpg);
@@ -111,10 +112,11 @@ a .logo{
     color: rgb(255, 255, 255);  
 }
 
-.navbar a{
-    transition: all 0,2s ease-in-out;
-    border-radius: 5px;  
+.navbar a {
+    transition: all 0.2s ease-in-out;
+    border-radius: 5px;
 }
+
 
 ul{ 
     width: 100%;
@@ -366,14 +368,15 @@ nav li:hover > ul{
     justify-content: center;
 }
 
-.tex-img{
+.tex-img {
     color: #070707;
     position: absolute;
-    transform: translate(-50%, );
+    transform: translateX(-50%);
     padding: 90%;
     font-size: 1rem;
     font-family: 'Croissant One', cursive;
 }
+
 .catalogo .tex-img:hover{
     cursor: crosshair;    
     color: rgb(255, 0, 119);
@@ -505,18 +508,18 @@ nav li:hover > ul{
    align-items:baseline;
 }
 
-.comentario{
-    display: flex;    
-    flex-wrap:row;
-    flex-direction: center;       
+.comentario {
+    display: flex;
+    flex-wrap: nowrap; /* Cambia a wrap si necesitas que los elementos se envuelvan */
+    flex-direction: row; /* Cambia a row-reverse, column o column-reverse según sea necesario */
     width: 300px;
     height: 200px;
-    box-sizing:content-box;
+    box-sizing: content-box;
     margin: 10px;
-    padding: auto;
+    padding: 10px; /* Especifica un valor válido en lugar de auto */
     border-right: solid rgb(255, 0, 119) 2px;
     border-bottom: solid rgb(255, 0, 119) 2px;
-    border-bottom-right-radius:5% ;
+    border-bottom-right-radius: 5%;
     background-color: #fdfdfd;
 }
 
@@ -723,7 +726,7 @@ footer .ubicacion:hover{
  } 
 
 .derechos-autor{
-    font-size: 1.5 rem;
+    font-size: 1.5rem;
     color:#aeaeae;
     padding-top: 5px;
     padding-bottom: 5px;
