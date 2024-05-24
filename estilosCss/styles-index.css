@@ -2,21 +2,18 @@
 *{
     box-sizing: 0;
     padding: 0;
-    margin: 0;
-    
+    margin: 0;  
 }
 
 body{
     background-image: url(../img-modelo-p/descarga.jpg);
-    min-width: 250px;
-    
+    min-width: 250px; 
 }
 
 .header-index{
     min-width: 400px;
     height: 680px;
-    margin-bottom: 10px;
-    
+    margin-bottom: 10px; 
 }
 
 h2{
@@ -41,18 +38,17 @@ p{
 /*secciones generales*/
 .seccion-oscura{
     color: rgb(251, 249, 249);
-    background-color: #090909d2;
-       
+    background-color: #090909d2;      
 }
+
 .seccion-clara{
     color: rgb(10, 10, 10);
     background-color: #ffffffd1;
-
 }
+
 .seccion-footer{
     color: rgb(251, 249, 249);
     background-color: #090909;
-
 }
 
 
@@ -61,12 +57,10 @@ p{
 /* barra de navegacion */
 
 .navbar {
-    
     background-color: #080808;
     height: auto;
     width: 100%;
-    height: auto;
-    
+    height: auto;   
 }
 
 .navbar-collapse{
@@ -76,12 +70,12 @@ p{
     align-items: center;
     width: 70%;
 }
-.boootom{
+/* .boootom{
     background-color: rgb(17, 17, 17);
     border: solid black 1px;
     width: 30px;
     height: 100%;
-}
+} */
 
 .logo-eslogan{
     width: 100%;
@@ -97,8 +91,8 @@ a .logo{
     width: 4rem;
     height: auto;
     margin: 0 10px 0 0;
-    
 }
+
 .eslogan {
     font-family: "Niconne", cursive;
     font-weight: 400;
@@ -109,68 +103,66 @@ a .logo{
     width: 100%;
     height: auto;
     border-left: solid rgb(248, 244, 247) 2px;
-    color: rgb(254, 253, 254);
-    
+    color: rgb(254, 253, 254);   
 }
+
 .eslogan a{
     text-decoration: none;
-    color: rgb(255, 255, 255);
-   
+    color: rgb(255, 255, 255);  
 }
+
 .navbar a{
-    
     transition: all 0,2s ease-in-out;
-    border-radius: 5px;
-    
-    
+    border-radius: 5px;  
 }
 
-ul{
-    
+ul{ 
     width: 100%;
-    
-    
-
 }
 
-li{
-    
+li{ 
     width:120px;
-    
     text-align: center;
-    text-decoration: none;
-    
-    
+    text-decoration: none;    
 }
+
 .li-registro{
     width: 120px;
 }
+
 .navbar li a{
-    
-    color: rgb(244, 240, 240);
-    
+    color: rgb(244, 240, 240);   
 }
+
 .navbar .item-car{
-    width: 60px;
-   
+    width: 60px; 
 }
-.navbar li a:hover{
-    
+
+.navbar li a:hover{ 
     color: rgb(244, 240, 240);
-    
     box-shadow: 1px 1px 1px 1px inset #615d62f2;
     background-color:rgba(255, 0, 119, 0.808) ; 
-   
-
 }
-.navbar a:hover i{
-    
-    color: rgb(244, 240, 240);
-    
-    
-    background-color:rgba(255, 0, 119, 0.808) ; 
-   
 
+.navbar a:hover i{
+    color: rgb(244, 240, 240);
+    background-color:rgba(255, 0, 119, 0.808) ; 
+}
+
+.navbar-toggler-icon {
+    background-color: #e4e4e4;
+    border-radius: 2px;
+    transition: 0.6s;
+}
+.navbar-toggler-icon:hover {
+    background-color: #aeaeae;
+}
+
+.boootom{
+    background-color: transparent;
+    border: none;
+    padding: 15px 22px;
+    margin-right: 50px;
 }
 
 /* barra de navegacion  fin*/
@@ -184,14 +176,10 @@ nav li ul{
     width: 160px;
     z-index: 1;
     list-style: none;
-
 }
+
 nav li ul li{
     background-color: #07070793;
-    
-    
-    
-
 }
 nav li:hover > ul{
     display: block;
@@ -204,15 +192,13 @@ nav li:hover > ul{
 .carousel-inner .carousel-item{
     background: rgba(255, 0, 119, 0.405);
     background:url(../img-modelo-p/verano.png),linear-gradient(to right,rgba(19, 97, 206, 0.527), rgba(255, 0, 119, 0.405));
-
     background:url(../img-modelo-p/verano.png),-webkit-linear-gradient(to right,rgba(19, 97, 206, 0.458), rgba(255, 0, 119, 0.405));
-    
 }
+
 .carousel-inner img{
     width: 30%;
     height: 500px;
-    object-fit: cover;
-    
+    object-fit: cover; 
 }
 
 
@@ -224,12 +210,14 @@ nav li:hover > ul{
     color:rgba(255, 0, 119);
     text-shadow: 2px 2px 10px rgba(0, 0, 0, 0.5);
 }
+
 .slide-titulo-2{
     font-family: 'Croissant One', cursive;
     font-size: 60px;
     color:rgb(255, 0, 119);
     text-shadow: 2px 2px 10px rgba(0, 0, 0, 0.5);
 }
+
 .slide-titulo-3{
     font-family: 'Croissant One', cursive;
     font-size: 60px;
@@ -241,7 +229,6 @@ nav li:hover > ul{
 
 /*wave*/
 .wave{
-    
     position:relative;
     bottom: 90px;
 }
@@ -256,6 +243,7 @@ nav li:hover > ul{
     gap: 40px;
     padding: 30px;
 }
+
 .sec-1 .div-img{
     min-width: 350px;
     min-height: 350px;
@@ -263,14 +251,14 @@ nav li:hover > ul{
     padding: 30px;
    
 }
+
 .div-img img{
     width: 100%;
     height: 100%;
-    border-radius: 8px;
-    
+    border-radius: 8px;  
 }
+
 .description{
-    
     justify-content: center;
     align-items: center;
     text-align: center;
@@ -293,10 +281,7 @@ nav li:hover > ul{
 
 
 .sec-2{
-    
-    
     width: 80%;
-    
     display: flex;
     flex-direction:column;
     justify-content:center;
@@ -304,9 +289,7 @@ nav li:hover > ul{
     align-items: center;
     padding: 20px;
     border: solid rgb(255, 0, 119) 4px;
-    border-radius: 4px;
-     
-    
+    border-radius: 4px;  
 }
 
 
@@ -329,16 +312,12 @@ nav li:hover > ul{
     align-items: center;
     text-align: center;
     margin: 10px;
-   
 }
 
 .sec-2 p{
     font-size: large;
     min-width: 250px;
-
 }
-
-
 
 
 /*catalogo*/
@@ -346,11 +325,9 @@ nav li:hover > ul{
     display: flex;
     width: 700px;
     height: 430px;
-    margin-bottom: 50px;
-    
-    
-    
+    margin-bottom: 50px; 
 }
+
 .catalogo div{
     width: 0px;
     height: 430px;
@@ -358,14 +335,14 @@ nav li:hover > ul{
     object-fit: cover;
     transition: .5s ease;
 }
+
 .catalogo img{
     width: 0px;
     height: 430px;
     flex-grow: 1;
     object-fit: cover;
     opacity: .8;
-    transition: .5s ease;
-    
+    transition: 0.5s ease;
 }
 
 .catalogo img:hover{
@@ -373,27 +350,22 @@ nav li:hover > ul{
     width: 300px;
     object-fit:cover;
     opacity: 1;
-    filter: contrast(120%);
-    
-   
-    
+    filter: contrast(120%);   
 }
+
 .catalogo .container-2:hover{
     cursor: crosshair;
     width: 300px;
     height:500px;
-    opacity: 1;   
-
-    
+    opacity: 1; 
 }
 
 .container-2{
     position: relative;
     display: flex;    
     justify-content: center;
-    
-
 }
+
 .tex-img{
     color: #070707;
     position: absolute;
@@ -405,14 +377,12 @@ nav li:hover > ul{
 .catalogo .tex-img:hover{
     cursor: crosshair;    
     color: rgb(255, 0, 119);
-    font-size: 2rem;
+    font-size: 1.5rem;
     filter: contrast(120%);
-    
 }
 
 .texto p{
     color: #070707;
-
 }
 
 /*sec-3 materiales de calidad*/
@@ -425,8 +395,7 @@ nav li:hover > ul{
     text-align: center;
     width: 100%;
     height: auto;
-    
-    
+    transition: all 0.8s ease-in;
 }
 /*parrafo Materiales excepcionales para un estilo excepcional: */
 .sec-3 .texto, .texto-home{
@@ -437,25 +406,22 @@ nav li:hover > ul{
     text-align: center;
     margin-top: 50px;
     width: 700px;
-    
 }
+
 .texto p{
     color: rgb(15, 15, 15);
     width: 500px;
     padding-left: 10px;
     padding-right: 10px;
-    
 }
+
 /*texto home */
 .texto-home p{
-    color: rgb(248, 244, 244);
-      
+    color: rgb(248, 244, 244);   
 }
 /*parrafo fin*/
 
 /*contenedor imagenes*/
-
-
 .div-sec-3{
     width: 100%;
     display: flex;
@@ -463,9 +429,8 @@ nav li:hover > ul{
     justify-items: center;
     align-items: center;
     margin-bottom: 30px;
-    
-    
 }
+
 .div-sec-3 p{
     width: 50%;
     height: 600px;
@@ -473,8 +438,8 @@ nav li:hover > ul{
     align-items: center;
     justify-content: center;
     color:#02021000
-    
 }
+
 .div-sec-3:hover p{
     width: 50%;
     height: 70%;
@@ -486,27 +451,22 @@ nav li:hover > ul{
     justify-content: center;
     align-items: center;
     padding-top: 20px;
-    
-    
 }
+
 .div-sec-3 img{
-    
     width: 350px;
     height: 600px;
     position: absolute;
     transition: all .2s ease-in;
     border: none;
     border-radius: 8px;
-    
-    
 }
-
 .div-sec-3:hover img{
     height: 600px;
     position: relative;
     transition: all .4s ease-in;
-    
 }
+
 .d-2{
    width: 100%;
     height: 600px;
@@ -514,8 +474,6 @@ nav li:hover > ul{
     flex-direction: column;
     justify-items: center;
     align-items: center;
-    
-    
 }
 .div-sec-3:hover .d-2{
     display: flex;
@@ -538,7 +496,6 @@ nav li:hover > ul{
     margin: 20px;
     padding-top: 20px;
     padding-bottom: 20px;
-
 }
 
 .container-4{
@@ -548,6 +505,7 @@ nav li:hover > ul{
    justify-content: space-evenly;
    align-items:baseline;
 }
+
 .comentario{
     display: flex;    
     flex-wrap:row;
@@ -561,7 +519,6 @@ nav li:hover > ul{
     border-bottom: solid rgb(255, 0, 119) 2px;
     border-bottom-right-radius:5% ;
     background-color: #fdfdfd;
-
 }
 
 
@@ -580,10 +537,8 @@ nav li:hover > ul{
     object-fit: cover;
     margin: 10px;
     background-color: #d2d2d2;
-    
 }
 .texto-comentario{
-    /* background-image: linear-gradient(0 0 0 black, 0 0 0 0.6); */
     padding: 10px 10px;
     margin: 5px;
     border-radius: 6px;
@@ -600,6 +555,7 @@ nav li:hover > ul{
     border: 2px solid transparent;
     padding: 20px;
 }
+
 .comentario{
     box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
     border: none;
@@ -607,6 +563,7 @@ nav li:hover > ul{
     text-align: center;
     padding: 5px;
 }
+
 .texto-comentario p{
     font-family: 'Fauna One', sans-serif;
     font-size: 16px;
@@ -620,6 +577,7 @@ nav li:hover > ul{
     font-size: 26px;
     color: rgb(21, 21, 21)
 }
+
 .seccion-clara h2{
     font-family: 'Fauna One', sans-serif;
     font-weight: 200;
@@ -635,9 +593,7 @@ footer{
     flex-wrap:wrap;    
     justify-content: center;
     align-items: center;
-    
     padding-bottom: 10px;
-    
 }
 /*ubicacion*/
 .footer-logo{
@@ -647,7 +603,6 @@ footer{
     border-radius: 50%;
     object-fit: cover; 
     background-color: #fdfdfd;   
-    
  }
  
 .footer-texto{
@@ -655,8 +610,8 @@ footer{
     padding: 10px;
     font-family: 'Fauna One', sans-serif;
     color: #d2d2d2;   
-    
 }
+
 #stars{
     width: 100px;
     height: auto;
@@ -664,6 +619,7 @@ footer{
     border-radius: 1px;
     background: none;
 }
+
 footer .ubicacion{
     width: 70px;
     height: 70px;
@@ -676,6 +632,7 @@ footer .ubicacion{
     border-radius: 50%;
     transition: all 0.2s ease-in;
 }
+
 footer .ubicacion i{
     color: rgb(255, 0, 119);
     font-size: 2rem;
@@ -683,10 +640,8 @@ footer .ubicacion i{
     
  }
 footer .ubicacion:hover{
-    
     border: solid rgb(255, 0, 119)2px;
      transition: all 0.2s ease-in;
-     
  }
 .ubicacion:hover i{
     color:rgb(210, 0, 119);    
@@ -700,26 +655,20 @@ footer .ubicacion:hover{
     justify-content: center;
     align-items: center;
     padding: 20px;
-    
-    
 }
+
 .cont-1{
     min-width: 250px;    
     flex: 1;
     justify-content: center;
     align-items: center;
     padding: 20px;
-   
-    
-    
 }
 
 .cont-2{
     justify-content: center;
     align-items: center;
     padding: 20px;    
-    
-    
 }
 
 
@@ -736,8 +685,8 @@ footer .ubicacion:hover{
     border: solid white 2px;
     border-radius: 50%;
     transition: all 0.2s ease-in;
-    
 }
+
 .iconos-redes-sociales i{
     color: white;
     font-size: 1.5rem;
@@ -773,16 +722,14 @@ footer .ubicacion:hover{
     height: 50px;
     text-align: center;
 }
+
 .derechos-autor img{
     height: 35px;
 }
 
-
-
-
-
+/* 
+media */
 @media  (max-width:600px){
-    
     .sec-1{
         display: grid;
         grid-template-columns:80%;
@@ -790,8 +737,6 @@ footer .ubicacion:hover{
         padding: 10px;
         justify-content: center;
         align-items: center;
-
-    
     }  
 
     .div-sec-3{
@@ -801,8 +746,6 @@ footer .ubicacion:hover{
         justify-items: center;
         align-items: center;
         margin-bottom: 30px;
-       
-        
     }
 
     .d-2{
@@ -810,10 +753,7 @@ footer .ubicacion:hover{
         height: 400px;
         display: flex;
         flex-direction: row;
-        
         gap: 30px;
-         
-         
      }
 
     .div-sec-3 p{
@@ -824,48 +764,31 @@ footer .ubicacion:hover{
         align-items: center;
         justify-content: center;
         color:rgb(210, 0, 119);
-        
-        
     }
+
     .div-sec-3 img{
         position: relative;
         width: 50%;
         height: 300px;
-        border-radius: 10%;
-        
-        
-        
+        border-radius: 10%;  
     }
     .div-sec-3:hover img{
-    
-    
         height: 300px;
-        
         transition: all .2s ease-in;
         border: solid  rgb(210, 0, 119) 2px;
     }
     
 
     .div-sec-3:hover p{
-        
-            
         color: rgb(210, 0, 119);
         transition: all .2s ease-in;
         border-top: solid rgb(210, 0, 119) 3px;
         border-bottom: solid rgb(210, 0, 119) 3px;
         justify-content: center;
         align-items: center;
-        
         width: 50%;
         height: 300px;
         font-size: 3rem;
         padding-top: 40px;
-        
-    }
-
-    
-    
-
-    
-    
+    }   
 }
